@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    git is version control system
+pwd(print working dir)
+ls(list file and folder in dir)
+cd "folderName"  {go in this folder}
+cd ..   {go back one folder}
+
+    git {folder name}
+
+    git init  (but go in that folder first)
+    git add {file name}
+    git add .(add all files in that folder)
+
+     code-->staging-->commit  
+
+     git status (tell status )
+     git commit -m "my first commit"
+
+     #git lens extension
+     git diff (tells what is being changed work only before staging)
+
+     git reset first.js (remove first.js from staging)
+     git log(tell about all commit)
+     git log --oneline(commit id in short form)
+     git show {commit id} (information about that particular commit id)
+
+     O->O->O->(this is master branch ,last commit is head ,commit  code with head excutes) 
+     git reset --hard {commit id}(this whill make that commit head and delete the all next commits)
+     git revert --{commit id} >git add . > git commit(this will remove that commit code only not any other code)
+ 
+    git checkout -b "feature" (this will create a new branch ,editing code in branch will not effect master branch)
+    git branch (shows all current branches)
+    git checkout {brach/master name} (to go back in master /branch)
+    git merge {name of branch} (to merge the branch in master)
+    git branch -D {brach name} (to delete the branch)
+    git rebase master > git rebase  --continue (to add the branch to master mranch head)
+    i (insertion in console)
+    :wq (save and quit console)
+     
+     
+     
+
+
+
+
+</body>
+</html>
