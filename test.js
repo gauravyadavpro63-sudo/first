@@ -6,7 +6,6 @@ function fun(){
     console.log(fuN);
 }
 
-
-function very_fun(){
-    console.log(very_fun);
+function verfun(){
+    console.log(veryfun);
 }
