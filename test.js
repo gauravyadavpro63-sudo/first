@@ -15,3 +15,7 @@ function feature(){
 function feature2(){
     console.log("feature2");
 }
+
+function bug(){
+    console.log(bug);
+}
