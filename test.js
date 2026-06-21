@@ -15,3 +15,7 @@ function feature(){
 function feature2(){
     console.log("feature2");
 }
+
+function button(){
+    console.log(button);
+}
