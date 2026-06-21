@@ -19,3 +19,6 @@ function feature2(){
 function button(){
     console.log(button);
 }
+function bug(){
+    console.log(bug);
+}
