@@ -22,3 +22,7 @@ function button(){
 function bug(){
     console.log(bug);
 }
+
+function last(){
+    console.log(hii)
+}
