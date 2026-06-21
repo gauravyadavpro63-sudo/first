@@ -7,3 +7,7 @@
 function verfun(){
     console.log(veryfun);
 }
+
+function feature(){
+    console.log("feature");
+}
