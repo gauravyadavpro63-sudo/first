@@ -33,10 +33,12 @@ cd ..   {go back one folder}
 
      O->O->O->(this is master branch ,last commit is head ,commit  code with head excutes) 
      git reset --hard {commit id}(this whill make that commit head and delete the all next commits)
-     git revert --{commit id} >git add . > git commit(this will remove that commit code only not any other code)
+     git revert -- {commit id} >git add . > git commit(this will remove that commit code only not any other code)
  
-    git checkout -b "feature" (this will create a new branch ,editing code in branch will not effect master branch)
-    git branch (shows all current branches)
+    
+     git checkout -b "feature" (this will create a new branch ,editing code in branch will not effect master branch)
+     (head points to wherever u currently are)
+     git branch (shows all current branches)
     git checkout {brach/master name} (to go back in master /branch)
     git merge {name of branch} (to merge the branch in master)
     git branch -D {brach name} (to delete the branch)
