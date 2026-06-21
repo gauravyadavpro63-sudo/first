@@ -26,3 +26,6 @@ function bug(){
 function last(){
     console.log(hii)
 }
+function newfet(){
+    console.log(hi)
+}
