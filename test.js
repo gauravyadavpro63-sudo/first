@@ -22,3 +22,7 @@ function button(){
 function bug(){
     console.log(bug);
 }
+
+function newfet(){
+    console.log(hi);
+}
