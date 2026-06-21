@@ -24,5 +24,5 @@ function bug(){
 }
 
 function newfet(){
-    console.log(hi);
+    console.log(hi)
 }
